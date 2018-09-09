@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "45227895670",
+    "firebase_url": "https://fir-dldemo.firebaseio.com",
+    "project_id": "fir-dldemo",
+    "storage_bucket": "fir-dldemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45227895670:android:ea7f1a53734cdd66",
+        "android_client_info": {
+          "package_name": "idv.derektu.firebasedldemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45227895670-jd09klpj1a4ng3rn88vv4t8u6cq0m850.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6DAWzaxjQJrI8_brsQLFEM2hfcaHBpRc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
