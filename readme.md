@@ -10,13 +10,14 @@ Reference:
 - Project name: FirebaseDLDemo
 - DynamicLink
     - domain: https://firebasedldemo.page.link
-    - deeplink格式: "https://idv.derektu.FirebaseDLDemo/<userid>", where <userid> is a number
-    - 重要參數: efr=1會直接連到appstore, 不加這個參數的話則會顯示一個
-    - [範例: 連到 /1234 with apppreview](https://firebasedldemo.page.link/?link=https://idv.derektu.FirebaseDLDemo/1234&apn=idv.derektu.firebasedldemo&isi=1023598964&bi=idv.derektu.FirebaseDLDemo)
-    - [範例: 連到 /5678 without apppreview](https://firebasedldemo.page.link/?link=https://idv.derektu.FirebaseDLDemo/5678&apn=idv.derektu.firebasedldemo&isi=1023598964&bi=idv.derektu.FirebaseDLDemo&efr=1)
+    - deeplink參數: "https://idv.derektu.FirebaseDLDemo/\<userid\>", where \<userid\> is a number
+    - 範例1: 傳入 /1234, with apppreview
+        - [https://firebasedldemo.page.link/?link=https://idv.derektu.FirebaseDLDemo/1234&apn=idv.derektu.firebasedldemo&isi=1023598964&bi=idv.derektu.FirebaseDLDemo](https://firebasedldemo.page.link/?link=https://idv.derektu.FirebaseDLDemo/1234&apn=idv.derektu.firebasedldemo&isi=1023598964&bi=idv.derektu.FirebaseDLDemo)
+    - 範例2: 傳入 /5678, without apppreview, 注意多"efr=1"這個參數
+        - [https://firebasedldemo.page.link/?link=https://idv.derektu.FirebaseDLDemo/5678&apn=idv.derektu.firebasedldemo&isi=1023598964&bi=idv.derektu.FirebaseDLDemo&efr=1](https://firebasedldemo.page.link/?link=https://idv.derektu.FirebaseDLDemo/5678&apn=idv.derektu.firebasedldemo&isi=1023598964&bi=idv.derektu.FirebaseDLDemo&efr=1)
 - iOS
     - bundle id: idv.derektu.FirebaseDLDemo
-    - store id: 1023598964 (目前國泰開戶的store id)
+    - store id: 1023598964 (目前國泰開戶App的store id)
 - Android
     - package name: idv.derektu.firebasedldemo
 
